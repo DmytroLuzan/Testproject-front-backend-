@@ -1,0 +1,10 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  react:
+    build: ./test-react
+    ports:
+      - "3000:3000"
+  django:
+    build: ./django_list_users
+    ports:
+      - "8000:8000"
