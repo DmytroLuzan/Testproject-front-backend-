@@ -26,6 +26,6 @@ The following technologies are used on the front end:
  - React
  - React Bootstrap
 
-### Comments
+### Comments:
 
 The current docker-compose config is not an option for production
