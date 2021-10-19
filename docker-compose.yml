@@ -3,7 +3,7 @@ services:
   react:
     build: ./test-react
     ports:
-      - "3000:3000"
+      - "80:80"
   django:
     build: ./django_list_users
     ports:
